@@ -4,4 +4,5 @@
 table = [[i * j for j in range(1, 11)] for i in range(1, 11)]
 
 # add a new line after each row to improve readability
-print (table)
+for row in table:
+    print(" ".join(map(str, row)))
